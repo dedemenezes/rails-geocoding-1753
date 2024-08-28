@@ -1,0 +1,11 @@
+<% content_for :title, "New flat" %>
+
+<h1>New flat</h1>
+
+<%= render "form", flat: @flat %>
+
+<br>
+
+<div>
+  <%= link_to "Back to flats", flats_path, class: 'btn btn-primary' %>
+</div>
